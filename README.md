@@ -6,7 +6,7 @@
 
 - 💼 &nbsp; Traning web development at DCI.
 - 🌱 &nbsp; Learning more about Html, CSS,SASS, JavaScript and React.
-  > > > > > > > e98c2c51bb52c984ade5d478fa8ac0fe5115f6fd
+
 - ✍️ &nbsp; Pursuing Graphic Design and Blog Writing as hobbies/side hustles.
 
 <h3> 🛠 &nbsp;Tech Stack</h3>
