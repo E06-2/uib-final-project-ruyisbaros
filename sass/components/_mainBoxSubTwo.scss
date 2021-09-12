@@ -1,0 +1,126 @@
+.main__box-two {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 10vw;
+
+    backface-visibility: hidden;
+    transition: all .8s ease-in;
+    border: 0rem solid;
+    border-image-source: url(../../img/a4.jpg);
+    border-image-slice: 60 30;
+
+    @media screen and (max-width:90rem) {
+        flex-direction: column;
+        top: 30%;
+    }
+
+
+    &-left {
+        flex-basis: 40%;
+        height: 100%;
+        padding: 2rem;
+        background: linear-gradient($white-gray, $color-blue-open2);
+
+        @include playFair;
+        @include centerItem;
+        flex-direction: column;
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .main-sub-target:link,
+        .main-sub-target:visited {
+            color: $color-blue-open;
+            display: inline-block;
+            font-size: 1.4rem;
+            padding: 1rem 1rem;
+            background-color: transparent;
+            border-bottom: 1px solid $color-blue-open;
+            transition: all .3s;
+
+        }
+
+        .main-sub-target:hover {
+            box-shadow: 0 2rem 2rem rgba($color: #000000, $alpha: .3);
+            background-color: $color-blue-open;
+            color: $white-gray;
+            transform: translateY(-3px);
+        }
+
+        .main-sub-target:active {
+            box-shadow: 0 2rem .9rem rgba($color: #000000, $alpha: .3);
+        }
+    }
+
+    &-right {
+        flex-basis: 40%;
+        position: relative;
+
+        img {
+            position: absolute;
+            cursor: pointer;
+            transition: all .3s;
+
+
+            &:hover {
+                transform: scale(1.10);
+                outline: 15px solid $color-blue-open2;
+                outline-offset: 1rem;
+                z-index: 100;
+            }
+        }
+
+        &:hover img:not(:hover) {
+            transform: scale(.9);
+        }
+    }
+
+    .main__box-img3 {
+        width: 30vw;
+        height: 35vh;
+        top: 5rem;
+        left: 10vw;
+
+        @media screen and (max-width:90rem) {
+            top: 0;
+            width: 40vw;
+
+        }
+    }
+
+    .main__box-img4 {
+        width: 25vw;
+        height: 35vh;
+        top: 17rem;
+        left: 20vw;
+
+        @media screen and (max-width:90rem) {
+            top: 9rem;
+            width: 40vw;
+        }
+
+    }
+
+    .main__box-img5 {
+        width: 25vw;
+        height: 35vh;
+        top: 35rem;
+        left: 5vw;
+
+        @media screen and (max-width:90rem) {
+            top: 20rem;
+            width: 40vw;
+        }
+    }
+}
