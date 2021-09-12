@@ -1,58 +1,61 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5505489&assignment_repo_type=AssignmentRepo)
-# UIB Portfolio Project
+<h2> Hey there! I'm Ahmet.</h2>
 
----
+<h3> 👨🏻‍💻 &nbsp;About Me </h3>
 
-### Objective
+- 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
 
-Create a personal portfolio website that accurately represents your accomplishments, skill sets, and experience. This portfolio will be the first introduction between you and a prospective hiring manager. Hiring managers are looking for skill and professionality, not irrelevant past experience, excessive personal content, goofy memes, or anything that distracts them from your hireability.
+- 💼 &nbsp; Traning web development at DCI.
+- 🌱 &nbsp; Learning more about Html, CSS,SASS, JavaScript and React.
 
-Use this opportunity to create a clean, attractive portfolio that you can use to showcase your abilities as a professional web developer. Keep it direct and helpful.
+- ✍️ &nbsp; Pursuing Graphic Design and Blog Writing as hobbies/side hustles.
 
-### Requirements
+<h3> 🛠 &nbsp;Tech Stack</h3>
 
-- Design, create and deploy your own professional website - demonstrate your proficiency in all of the skills you have learned up to this point
+- 💻 &nbsp;
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+  ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
 
-- Do not use online templates, JavaScript or any other technologies we have not yet covered in the course - you can always implement new technologies and frameworks in the future
-- Site should be fully responsive and accessible
-- Best practices concerning UI/UX need to be adhered to
-- Before coding anything, establish your workflow and environments (directories, GitHub repo, wireframes, color palette, images)
-- Have completed portfolio proofread by at least one peer
-- Dare to be different and make it your own!
+- 🌐 &nbsp;
+  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap&logoColor=563D7C)
+  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+- 🛢 &nbsp;
+  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
 
-### What to include:
+- ⚙️ &nbsp;
+  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
+- 🔧 &nbsp;
+  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
 
-- Profile picture (optional)
-- Contact information
-- Working links to **relevant** social media presence (GitHub, Linkedin)
-- Links to at least three completed projects
-- Brief introduction and personal mission statement
+  ![Eclipse](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
 
-### What NOT to include:
+- 🖥 &nbsp;
+  ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
+  ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
+  ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
 
-- Links to personal social media accounts
-- Political / religous content
-- Remember this is a public facing portfolio, so avoid using silly photos, gamer tags, gifs etc.
-- Any personal information or opinions unrelated to yourself as a professional and hireable web developer
+<br/>
 
-### Presentation
+<a href="https://github.com/ruyisbaros">
+ 
 
-You will be expected to present your portfolio to the class on the last day of the module. Concentrate on explaining your content and design choices, workflow, and discussing any particular difficulties or triumphs.
+</a>
 
-In the event that you are unable to complete the project, you will still be expected to present your portfolio as a work in progress (WIP).
+<br/>
 
-Your classmates and teachers will be encouraged to ask questions about your project and offer constructive criticism and feedback.
+<h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
-Think of this as an opportunity to present your work as you would in a professional development position or during the hiring process for such a position. Communication skills are important!
+<a href="https://www.linkedin.com/in/ahmet-erdonmez-085bb8141/"></a>
 
-Remember, this is not a competition! This is all about mutual support, sharing and positive encouragement.
+<a href="mailto:ahmet.erdonmez77@gmail.com"></a>
 
-#### Helpful Links
+</p>
 
-- [Developer Portfolios to Inspire](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
-- [35 Web Developer Portfolio Examples](https://skillcrush.com/blog/web-developer-portfolios/)
-- [More Portfolio Examples](https://www.sliderrevolution.com/design/web-developer-portfolio-examples/)
-- [How to Build a Stunning Portfolio](https://www.sitepoint.com/how-to-build-a-stunning-portfolio-website-as-a-web-developer/)
-- [How to Build a Web Developer Portfolio](https://brainstation.io/career-guides/how-to-build-a-web-developer-portfolio)
-- [A Comprehensive Website Planning Guide](https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/)
-- [Portfolio Tips](https://designmodo.com/dev-portfolio-tips/)
+⭐️ From [ruyisbaros](https://github.com/ruyisbaros)
+
+

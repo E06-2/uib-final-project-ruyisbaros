@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+
+    height: 15vh;
+    font-size: 3rem;
+    background: linear-gradient(rgba($color-blue-open, .2), rgba($color-blue-open, .9));
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10rem;
+    transition: all 1s;
+
+    @media screen and(max-width:90rem) {
+        font-size: 2rem;
+    }
+
+    @media screen and(max-width:55rem) {
+        font-size: 1.4rem;
+        letter-spacing: 0px;
+    }
+
+
+    h1 {
+
+        text-align: center;
+        text-transform: uppercase;
+        color: transparent;
+        letter-spacing: 5px;
+        background: linear-gradient($color-blue-str, $color-blue-open);
+        -webkit-background-clip: text;
+
+        animation: moveLeft;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+
+        @media screen and(max-width:90rem) {
+            animation-duration: 0s;
+        }
+    }
+}

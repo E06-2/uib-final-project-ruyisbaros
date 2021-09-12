@@ -1,0 +1,254 @@
+.main__sub {
+    width: 0vw;
+    height: 0vh;
+    overflow: hidden !important;
+    //display: none;
+    margin: 0rem auto;
+    padding: 0 4rem;
+    position: relative;
+    transition: all .5s;
+
+    //overflow: hidden;
+    //background-color: $color-blue-open;
+    @media screen and(max-width:1200px) {
+        padding: 2rem 2rem;
+    }
+
+    @media screen and(max-width:900px) {
+        padding: 1rem;
+    }
+
+    &-boxes {
+        width: 0vw;
+        height: 0vh;
+        overflow: hidden !important;
+        margin: 3rem auto;
+        transition: all .5s;
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and(max-width:900px) {
+            flex-direction: column;
+            margin: 1rem auto;
+        }
+
+        >div {
+            box-shadow: 0 2rem 4rem rgba($color-blue-open, .6);
+            cursor: pointer;
+            transition: all .3s;
+
+            @media screen and(max-width:900px) {
+                height: 90rem;
+
+                h4 {
+                    font-size: 1.4rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+
+            }
+
+            @media screen and(max-width:600px) {
+                height: 90rem;
+
+                h4 {
+                    font-size: 1.4rem;
+                    margin-bottom: .3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+
+            }
+
+            &:hover {
+                transform: translateY(-8px);
+            }
+        }
+
+        .kapat-s {
+            display: block;
+            // width: 5rem;
+            font-size: 3rem;
+            color: #000;
+            position: relative;
+            flex-basis: 2%;
+
+            &:hover {
+                transform: translateY(-3px);
+                color: $color-blue-open;
+            }
+
+
+
+            &::after {
+                content: "Close X";
+                display: inline-block;
+                position: absolute;
+                top: 8rem;
+                right: 3rem;
+                font-size: 1.2rem;
+                padding: .5rem 1rem;
+                color: $white-gray;
+                background-color: $color-blue-dark;
+                display: none;
+
+            }
+
+            &:hover::after {
+                display: inline-block;
+            }
+        }
+
+        &--1 {
+            flex-basis: 29%;
+            height: 70rem;
+            background-color: $white-gray;
+            text-align: center;
+            border-radius: 3px;
+
+            border: 1rem solid;
+            border-image-source: url(../../img/edu2.jpg);
+            border-image-slice: 60 30;
+
+
+            &-top {
+                min-height: 50%;
+                background-image: linear-gradient(rgba($color-blue-open, .2), rgba($color-blue-open, .2)), url(../../img/css-html.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &-bottom {
+                padding: 3rem 2rem;
+                height: 50%;
+
+                @media screen and(max-width:900px) {
+                    padding: 1.5rem 1rem;
+                }
+
+                h4 {
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                    background: linear-gradient(to right, #fff, $color-blue-open);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        &--2 {
+            flex-basis: 29%;
+            max-height: 70rem;
+            background-color: $white-gray;
+            text-align: center;
+            border-radius: 3px;
+            border: 1rem solid;
+            border-image-source: url(../../img/bd-design);
+            border-image-slice: 60 30;
+
+            &-top {
+                height: 50%;
+                background-image: linear-gradient(rgba($color-blue-open, .2), rgba($color-blue-open, .2)), url(../../img/jscript.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &-bottom {
+                padding: 3rem 2rem;
+                height: 50%;
+
+                @media screen and(max-width:900px) {
+                    padding: 1.5rem 1rem;
+                }
+
+                h4 {
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                    background: linear-gradient(to right, #fff, $color-blue-open);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        &--3 {
+            flex-basis: 29%;
+            height: 70rem;
+            background-color: $white-gray;
+            text-align: center;
+            border-radius: 3px;
+            border: 1rem solid;
+            border-image-source: url(../../img/edu.jpg);
+            border-image-slice: 60 30;
+
+            &-top {
+                height: 50%;
+                background-image: linear-gradient(rgba($color-blue-open, .2), rgba($color-blue-open, .2)), url(../../img/react.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &-bottom {
+                padding: 3rem 2rem;
+                height: 50%;
+
+                @media screen and(max-width:900px) {
+                    padding: 1.5rem 1rem;
+                }
+
+                h4 {
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                    background: linear-gradient(to right, #fff, $color-blue-open);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+//manuplation...
+
+#main-sub:target {
+    width: 95vw;
+    min-height: 90vh;
+
+    @media screen and(max-width:900px) {
+        width: 95vw;
+        min-height: 100vh;
+    }
+
+}
+
+#main-sub:target .main__sub-boxes {
+    width: 80vw !important;
+    height: 80vh !important;
+
+    @media screen and(max-width:900px) {
+        width: 90vw !important;
+        min-height: 100vh !important;
+    }
+}

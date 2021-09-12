@@ -1,0 +1,44 @@
+@mixin centerItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin shadow-b($blur, $b-color, $c-alfa) {
+    box-shadow: 0 2rem $blur rgba($b-color, $c-alfa);
+}
+
+@mixin transition-s($seit) {
+    transition: all $seit;
+}
+
+@mixin playFair {
+    font-family: 'Playfair Display', serif;
+}
+
+@mixin openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// //Responsive settings
+
+// @mixin respond($breakpoint) {
+//     @if $breakpoint==phone {
+//         @media screen and(max-width:37.5em) {
+//             @content
+//         }
+//     }
+
+//     @if $breakpoint==ipad {
+//         @media screen and(max-width:56.25em) {
+//             @content
+//         }
+//     }
+
+//     @if $breakpoint==ipadB {
+//         @media screen and(max-width:75em) {
+//             @content
+//         }
+//     }
+
+// }
